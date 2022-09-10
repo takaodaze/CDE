@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
-import { nextProblemIndex, problems, whatProblemType } from "./problem";
-import { ImCross } from "react-icons/im";
-import a from "./correct.png";
-import { BiCircle } from "react-icons/bi";
 
+import { nextProblemIndex, problems, whatProblemType } from "./problem";
 import {
   EnglishPitchName,
   isEnglishPitchName,

@@ -87,7 +87,7 @@ export const App = () => {
       <div className="flex justify-center ">
         <div className="text-6xl">{problem.pitchName}</div>
       </div>
-      <div className="flex justify-center gap-3">
+      <div className="flex justify-center gap-2 md:gap-3">
         {problemType === "englishPitchName" ? (
           <>
             <ItalicAnswerButton pitchName="ド" />
@@ -117,7 +117,7 @@ export const App = () => {
 const AnswerButton = (props: { text: string; onClick: () => void }) => {
   return (
     <button
-      className="text-lg font-bold border-2 bg-gray-100 border-slate-400 p-4 rounded-md w-20 h-20"
+      className="text-lg font-bold border-2  bg-gray-100 border-slate-400 rounded-md  w-12 h-12 md:w-20 md:h-20"
       onClick={props.onClick}
     >
       {props.text}
